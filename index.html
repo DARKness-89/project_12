@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <!-- My CSS -->
+   <link rel="stylesheet" href="index.css">
+
+   <!-- Icon Link -->
+   <script src="https://kit.fontawesome.com/40e8ac52ad.js" crossorigin="anonymous"></script>
+
+   <!-- My CSS -->
+   <script src="./nav-style.js"></script>
+
+</head>
+<body>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+
+    <section class="section-1">
+        <div class="div-1">
+            <!--div-left-->
+            <div class="div-left">
+                <i onclick="openNav()" class="fa-solid fa-bars fa-xl icon-style"></i>
+                <span class="text">FootBall</span>
+            </div>
+
+            <!--div-mid-->
+            <div class="div-mid">
+                <input type="text" class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass icon-style"></i>
+
+            </div>
+
+            <!--div-right-->
+            <div class="div-right">
+                <i class="fa-solid fa-circle-user fa-xl icon-style"></i>
+            </div>
+        </div>
+
+        <div class="div-2">
+            <span class="nav-item">Real Madrid</span>
+            <span class="nav-item">Atlitico Madrir</span>
+            <span class="nav-item">Kolabagan Hyper Club</span>
+            <span class="nav-item">Barchelona</span>
+            <span class="nav-item">Mohamedan</span>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+    
+            <div class="carousel-inner">
+
+                <!--carousal-item-->
+                <div class="carousel-item active">
+                    
+                    <div class="c-div w-100">
+                        <div class="div-detail">
+                            <p class="text-1">FCB</p>
+                            <span class="text-2">
+                                Total Played: 23<br>
+                                Win: 21 <br>
+                                Lose: 2 <br>
+                            </span>
+                        </div>
+
+                        <img class="c-img" src="./image/barca.png" alt="">
+                    </div>
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+    
+                <!--carousal-item-->
+                <div class="carousel-item">
+                    
+                    <div class="c-div w-100">
+                        <div class="div-detail">
+                            <p class="text-1">FCB</p>
+                            <span class="text-2">
+                                Total Played: 23<br>
+                                Win: 21 <br>
+                                Lose: 2 <br>
+                            </span>
+                        </div>
+
+                        <img class="c-img" src="./image/barca.png" alt="">
+                    </div>
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+
+                <!--carousal-item-->
+                <div class="carousel-item">
+                    
+                    <div class="c-div w-100">
+                        <div class="div-detail">
+                            <p class="text-1">FCB</p>
+                            <span class="text-2">
+                                Total Played: 23<br>
+                                Win: 21 <br>
+                                Lose: 2 <br>
+                            </span>
+                        </div>
+
+                        <img class="c-img" src="./image/barca.png" alt="">
+                    </div>
+
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+    
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    <div class="container-fluid">
+
+        <div class="row g-2">
+            
+            <!--player-item-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="p-3 player-item">
+                    <img class="img-fluid" src="image/messi.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--player-item-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="p-3 player-item">
+                    <img class="img-fluid" src="image/messi.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--player-item-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="p-3 player-item">
+                    <img class="img-fluid" src="image/messi.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--player-item-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="p-3 player-item">
+                    <img class="img-fluid" src="image/messi.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--player-item-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="p-3 player-item">
+                    <img class="img-fluid" src="image/messi.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--player-item-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="p-3 player-item">
+                    <img class="img-fluid" src="image/messi.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--player-item-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="p-3 player-item">
+                    <img class="img-fluid" src="image/messi.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!--player-item-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="p-3 player-item">
+                    <img class="img-fluid" src="image/messi.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+      </div>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+</html>
